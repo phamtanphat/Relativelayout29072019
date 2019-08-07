@@ -4,33 +4,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
-        android:gravity="center"
-        android:layout_toLeftOf="@id/viewcenter"
-        android:layout_alignParentLeft="true"
-        android:id="@+id/textview1"
+        android:textColor="#ffff"
+        android:background="#f20"
+        android:id="@+id/textviewRed"
         android:textSize="40sp"
-        android:text="@string/view_1"
+        android:text="Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <View
-        android:id="@+id/viewcenter"
-        android:layout_centerHorizontal="true"
-        android:layout_width="1dp"
-        android:layout_height="wrap_content"/>
     <TextView
-        android:gravity="center"
-        android:layout_toRightOf="@id/viewcenter"
-        android:layout_alignParentRight="true"
-        android:id="@+id/textview2"
+        android:layout_below="@id/textviewRed"
+        android:textColor="#ffff"
+        android:background="#8BC34A"
+        android:id="@+id/textviewGreen"
         android:textSize="40sp"
-        android:text="View 2"
+        android:text="Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
-
+    <TextView
+        android:layout_below="@id/textviewGreen"
+        android:textColor="#ffff"
+        android:background="#03A9F4"
+        android:id="@+id/textviewBlue"
+        android:textSize="40sp"
+        android:text="Blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textviewBlue"
+        android:textColor="#ffff"
+        android:background="#FFC107"
+        android:id="@+id/textviewOrange"
+        android:textSize="40sp"
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textviewOrange"
+        android:textColor="#ffff"
+        android:background="#949494"
+        android:id="@+id/textviewGray"
+        android:textSize="40sp"
+        android:text="Gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textviewGray"
+        android:textColor="#ffff"
+        android:background="#E91E63"
+        android:id="@+id/textviewPink"
+        android:textSize="40sp"
+        android:text="Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
